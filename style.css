@@ -59,10 +59,11 @@ body {
 
 /* Media Queries */
 
-/* Small devices (phones, 600px and down) */
+/* Small devices*/
 @media only screen and (max-width: 600px) {
     .receipt-container {
         padding: 10px;
+        background-color: tomato;
     }
 
     .receipt-header h1 {
@@ -83,10 +84,11 @@ body {
     }
 }
 
-/* Medium devices (tablets, 768px and down) */
-@media only screen and (max-width: 768px) {
+/* Medium devices */
+@media only screen and  (min-width: 601px) and (max-width: 768px){
     .receipt-container {
         padding: 15px;
+        background-color: yellow;
     }
 
     .receipt-header h1 {
@@ -107,8 +109,8 @@ body {
     }
 }
 
-/* Large devices (laptops/desktops, 1024px and up) */
-@media only screen and (min-width: 1024px) {
+/* Large devices*/
+@media only screen and (min-width: 769px) and (max-width: 1023px) {
     .receipt-container {
         padding: 25px;
     }
