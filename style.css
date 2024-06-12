@@ -56,14 +56,3 @@ body {
 .receipt-table tfoot td {
     font-weight: bold;
 }
-
-@media (max-width: 600px) {
-    .receipt-details {
-        flex-direction: column;
-    }
-
-    .receipt-details .details-left, .receipt-details .details-right {
-        width: 100%;
-        margin-bottom: 10px;
-    }
-}
